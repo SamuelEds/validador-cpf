@@ -1,0 +1,52 @@
+body{
+	background: #87CEFA;
+}
+
+.conteudo{
+	background: linear-gradient(-30deg, #363636, #A9A9A9);
+	text-align: center;
+	padding: 90px 40px;
+	margin: 120px 100px 0px 100px;
+	border-radius: 25px;
+}
+
+.conteudo .titulo h2{
+	color: #ffffff;
+	font-family: 'Recursive', sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 55px;
+}
+
+.conteudo .formulario input{
+	outline: none;
+	background: #DCDCDC;
+	padding: 12px 94px;
+	text-align: center;
+	font-size: 22px;
+	border-radius: 50px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.conteudo .formulario button{
+	padding: 12px 72px;
+	margin-top: 44px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 50px;
+	font-family: 'Fire Sans', sans-serif;
+	outline: none;
+	font-weight: 600;
+	color: #ffffff;
+	transition: .3s;
+	transform: scale(1);
+	background: linear-gradient(-30deg, #191970, #836FFF);
+}
+
+.conteudo .formulario button:hover{
+	transition: .3s;
+	transform: scale(1.1);
+	background: linear-gradient(30deg, #191970, #836FFF);
+	outline: none;
+}
+
